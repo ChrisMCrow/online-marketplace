@@ -10,8 +10,8 @@
 
   <body>
     <div class="container">
-      <h1>Calculator</h1>
-      <form id="name">
+      <h1>Online Marketplace</h1>
+      <form id="form">
         <div class="form-group">
           <label for="name">enter your name:</label>
           <input id="name" class="form-control" type="text">
@@ -31,8 +31,14 @@
           </select>
         </div>
 
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+      <div class="receipt">
+        <h2>Here's your Receipt</h2>
+        <p>Thank you <span class="name"></span>. We have received your order of total $<span class="order"></span>. It will be shipped to <span class="address"></span>.
+        </p>
+
+      </div>
     </div>
   </body>
 </html>
